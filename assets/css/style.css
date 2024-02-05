@@ -1,0 +1,23 @@
+header{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+header h3{
+    flex:1 0 20%;
+}
+
+header nav{
+    flex:1 0 80%;
+    text-align: right;
+}
+section{
+    text-align: center;
+     margin-left: auto;
+     margin-right: auto;
+     width: 960px;
+}
+
+.hide{
+    display: none;
+}
