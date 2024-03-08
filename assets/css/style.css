@@ -1,6 +1,5 @@
-/* Styles for header */
 header {
-    background-color:azure;
+    background-color: azure;
     color: black;
     padding: 10px 20px;
     display: flex;
@@ -18,25 +17,23 @@ header button {
 
 header nav {
     text-align: right;
-    flex:1 0 80%;
+    flex: 1 0 80%;
 }
 
-/* Styles for main */
 main {
     padding: 20px;
 }
 
-/* Styles for section */
 section {
     margin-bottom: 20px;
     padding: 25px;
     text-align: center;
-     margin-left: auto;
-     margin-right: auto;
-     width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
 
 }
-/* Styles for buttons */
+
 button {
     padding: 10px 20px;
     background-color: rgba(125, 185, 182, 0.833);
@@ -52,26 +49,30 @@ button:hover {
     color: rgb(105, 104, 104);
 }
 
-#intro h1{
-    padding:1vh;
+#intro h1 {
+    padding: 1vh;
     font-size: 160%;
 }
-#intro p{
+
+#intro p {
     padding-bottom: 8px;
 }
-#choice-list li{
+
+#choice-list li {
     padding-top: 6px;
-    
+
 }
-#initial-input h1{
+
+#initial-input h1 {
     font-size: 120%;
     padding-bottom: 5px;
 }
-#initial-input p{
+
+#initial-input p {
     padding-bottom: 5px;
     font-size: 110%;
 }
-/* Styles for input */
+
 input[type="text"] {
     padding: 8px;
     border-radius: 5px;
@@ -79,15 +80,16 @@ input[type="text"] {
     width: 50%;
     box-sizing: border-box;
 }
+
 #highscore ol li {
     margin-bottom: 5px;
 }
-/* Styles for highscore list */
+
 #highscore ol {
-    list-style:none;
+    list-style: none;
     margin-bottom: 10px;
 }
-/* Hide class */
+
 .hide {
     display: none;
 }
