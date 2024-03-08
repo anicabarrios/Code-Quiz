@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,50 +8,51 @@
     <link rel="stylesheet" href="./assets/css/reset.css">
     <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+
 <body>
     <header>
-        <h3>View Highscores</h3>
-         
+        <button>View Highscores</button>
         <nav>
-            <h3>Time: <span id="timer"></span>   </h3>
-        </nav>  
+            <h3>Time: <span id="timer"></span> </h3>
+        </nav>
     </header>
 
     <main>
-         <section   id="intro">
-              <h1>Code Quiz</h1>
-              <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quod quidem corrupti voluptates minus molestiae, numquam ratione iste similique sequi, tempora illo dolores nulla assumenda impedit quaerat. Aut exercitationem incidunt ipsa?</p>
-              <button id="start-quiz">Start Quiz</button>
-         </section>
+        <section id="intro">
+            <h1>Code Quiz</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score time by ten seconds!</p>
+            <button id="start-quiz">Start Quiz</button>
+        </section>
 
-         <section class="hide" id="question-section">
-               <h1 id="question-title">Q1</h1>
-                 <ol id="choice-list">
-                    <li> <button>choice1</button>    </li>
-                    <li> <button>choice2</button>    </li>
-                    <li> <button>choice3</button>    </li>
-                    <li> <button>choice4</button>    </li>
-                 </ol>
-                 <label id="message"></label>
-         </section>
+        <section class="hide" id="question-section">
+            <h1 id="question-title">Q1</h1>
+            <ol id="choice-list">
+                <li> <button>choice1</button> </li>
+                <li> <button>choice2</button> </li>
+                <li> <button>choice3</button> </li>
+                <li> <button>choice4</button> </li>
+            </ol>
+            <label id="message"></label>
+        </section>
 
-         <section class="hide"  id="initial-input">
-             <h1>All Done</h1>
-              <p>Your score is  <span id="score">22</span> </p>
-               Enter Initial  <input type="text" id="initial">
-              <button id="submit"> Submit </button>
-         </section>
-         <section class="hide"  id="highscore">
-              <ol>
+        <section class="hide" id="initial-input">
+            <h1>All Done</h1>
+            <p>Your score is <span id="score">22</span> </p>
+            Enter Initials <input type="text" id="initial">
+            <button id="submit"> Submit </button>
+        </section>
+        <section class="hide" id="highscore">
+            <ol>
                 <li>AB - 22</li>
                 <li>AB - 10</li>
                 <li>AB - 5</li>
-              </ol>
-              <button id="goback-btn">Go Back</button>
-              <button id="clearHighscore">Clear Highscores</button>
-         </section>
+            </ol>
+            <button id="goback-btn">Go Back</button>
+            <button id="clearHighscore">Clear Highscores</button>
+        </section>
     </main>
     <script src="./assets/js/questionData.js"></script>
     <script src="./assets/js/script.js"></script>
 </body>
+
 </html>

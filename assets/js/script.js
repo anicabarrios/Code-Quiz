@@ -13,6 +13,7 @@ var highscoreListEl = document.querySelector("#highscore ol");
 var submitBtn = document.getElementById("submit");
 var goBackBtn = document.getElementById("goback-btn");
 var clearHighscoreBtn = document.getElementById("clearHighscore");
+var highscoresBtn = document.querySelector("header button"); // Highscores button
 var setIntervalId; // Timer interval ID
 var timeRemaining = questionData.length * 15; // Total time allowed for the quiz
 var index = 0; // Index to track the current question
@@ -124,6 +125,12 @@ goBackBtn.addEventListener("click", function () {
     introEl.classList.remove("hide");
 });
 clearHighscoreBtn.addEventListener("click", clearHighScores);
+
+// Event listener for highscores button
+highscoresBtn.addEventListener("click", function () {
+    introEl.classList.add("hide");
+    highscoreEl.classList.remove("hide");
+});
 
 // Display high scores on page load
 displayHighScores();

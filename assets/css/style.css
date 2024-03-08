@@ -1,23 +1,93 @@
-header{
+/* Styles for header */
+header {
+    background-color:azure;
+    color: black;
+    padding: 10px 20px;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
 }
 
-header h3{
-    flex:1 0 20%;
+header button {
+    background-color: rgba(125, 185, 182, 0.833);
+    color: white;
+    border: none;
+    cursor: pointer;
 }
 
-header nav{
-    flex:1 0 80%;
+header nav {
     text-align: right;
+    flex:1 0 80%;
 }
-section{
+
+/* Styles for main */
+main {
+    padding: 20px;
+}
+
+/* Styles for section */
+section {
+    margin-bottom: 20px;
+    padding: 25px;
     text-align: center;
      margin-left: auto;
      margin-right: auto;
      width: 960px;
+
+}
+/* Styles for buttons */
+button {
+    padding: 10px 20px;
+    background-color: rgba(125, 185, 182, 0.833);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
 }
 
-.hide{
+button:hover {
+    background-color: rgb(216, 214, 214);
+    color: rgb(105, 104, 104);
+}
+
+#intro h1{
+    padding:1vh;
+    font-size: 160%;
+}
+#intro p{
+    padding-bottom: 8px;
+}
+#choice-list li{
+    padding-top: 6px;
+    
+}
+#initial-input h1{
+    font-size: 120%;
+    padding-bottom: 5px;
+}
+#initial-input p{
+    padding-bottom: 5px;
+    font-size: 110%;
+}
+/* Styles for input */
+input[type="text"] {
+    padding: 8px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    width: 50%;
+    box-sizing: border-box;
+}
+#highscore ol li {
+    margin-bottom: 5px;
+}
+/* Styles for highscore list */
+#highscore ol {
+    list-style:none;
+    margin-bottom: 10px;
+}
+/* Hide class */
+.hide {
     display: none;
 }
